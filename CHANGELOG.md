@@ -8,7 +8,7 @@ All notable changes, new features, UI improvements, and architectural updates fo
 
 ### ✨ Major Improvements & Architecture Fixes
 - **Split Expense Correction & Deletion**:
-  - Added support for deleting erroneous split expenses locally and on Appwrite Cloud.
+  - Added support for deleting erroneous split expenses locally and on cloud servers.
   - Automatically recalculates all members' dynamic balances and total group spend in real time.
 - **Robust Pending Member Isolation**:
   - Filtered out pending members from group expense split chips, payer selector, and settlement dialogs.
@@ -42,7 +42,7 @@ All notable changes, new features, UI improvements, and architectural updates fo
   - Archive / Close and Delete Group controls for group admins.
 - **Group Activity Audit Log**:
   - Real-time activity timeline tracking expense creations, payments, settlements, and member changes.
-  - Pull-to-refresh synchronization with Appwrite Cloud.
+  - Pull-to-refresh synchronization with secure cloud backend.
 - **Online-First Legal Policies**:
   - Linked Privacy Policy and Terms & Conditions directly to GitHub repositories with offline HTML asset fallbacks.
 
@@ -62,7 +62,7 @@ All notable changes, new features, UI improvements, and architectural updates fo
   - Flexible custom sections (Personal, Household, Other, Bills, Travel, etc.).
   - Over-allocation warning banner: Automatically alerts you when category allocations exceed your overall monthly budget.
   - Dedicated Monthly Budget editing in Profile with centered Material dialog.
-  - Synced to Appwrite `category_budgets` collection with offline-first disk cache.
+  - Synced with cloud database and offline-first disk cache.
 
 - **Daily Logging Streak (Gamification)**:
   - "🔥 X-Day Streak" badge displayed directly on the Dashboard and Profile header.
@@ -102,8 +102,8 @@ All notable changes, new features, UI improvements, and architectural updates fo
   - Added `ACTION_SEND` intent filters for both payment receipts (images) and payment confirmation texts. Kharcho now appears in the Android system share sheet directly from Google Pay, PhonePe, and Paytm.
 - **Smart Receipt OCR Amount Extraction**:
   - Redesigned amount recognition to strictly isolate the payment amount (with `₹` symbol priority) and reject 10-18 digit UPI Reference Numbers, UTRs, and Order IDs.
-- **Appwrite Messaging Topic Subscribers & Push Notifications**:
-  - Integrated `messaging.createSubscriber()` to automatically subscribe users to Appwrite group topics when creating, joining, or re-logging into groups.
+- **Cloud Messaging Topic Subscribers & Push Notifications**:
+  - Automatically subscribed users to group broadcast channels when creating, joining, or re-logging into groups.
   - Triggered push notifications to all group members on new member joins and new group expenses.
 - **Split Group Member Count & Total Synchronization**:
   - Prevented empty cloud query responses from wiping out local members and totals, eliminating the "0 members • Total: ₹0.00" sync glitch.
@@ -149,4 +149,4 @@ All notable changes, new features, UI improvements, and architectural updates fo
 ---
 
 ## 🌟 [v1.0.0] - August 2026
-- Initial release of Kharcho Expense Tracker with Appwrite cloud sync.
+- Initial release of Kharcho Expense Tracker with secure cloud sync.

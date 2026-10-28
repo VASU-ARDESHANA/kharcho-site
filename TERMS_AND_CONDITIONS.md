@@ -43,7 +43,7 @@ You must be at least **13 years old** to use Kharcho. If you are between 13 and 
 ## 4. Your Data Ownership
 
 - **You own your data.** Kharcho does not claim any ownership over your expenses, loan records, notes, or uploaded receipts.
-- Your personal finance data is stored on your device and synchronized with your account on our secure Appwrite servers solely to operate the app for you.
+- Your personal finance data is stored on your device and synchronized with your account on our secure cloud servers solely to operate the app for you.
 - **We never sell, rent, monetize, or use your data to train AI models.**
 - You are responsible for the accuracy of the numbers you enter. If you log an incorrect expense, Kharcho will faithfully store and calculate based on that entry.
 
@@ -71,7 +71,7 @@ You agree to use Kharcho solely for personal money tracking and organizational p
 
 ## 7. Storage, Synchronization, and Backups
 
-- Kharcho provides cloud synchronization through secure Appwrite backend services so your financial records can follow you to a new or reset device.
+- Kharcho provides cloud synchronization through secure backend services so your financial records can follow you to a new or reset device.
 - While we take extensive precautions to safeguard data reliability and system uptime, we encourage you to periodically export your expense reports (via in-app PDF export) for your personal records.
 - If you permanently delete your account, your data will be permanently purged from our servers and cannot be recovered.
 
