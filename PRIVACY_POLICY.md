@@ -1,6 +1,6 @@
 # Privacy Policy for Kharcho
 
-**Last updated:** October 17, 2026  
+**Last updated:** October 28, 2026  
 **Developer:** VASU ARDESHANA  
 **Email:** [developer.vatech@gmail.com](mailto:developer.vatech@gmail.com)  
 **Location:** India 🇮🇳  
@@ -9,7 +9,7 @@
 
 ## Introduction
 
-**Kharcho** ("we", "us", "Kharcho") is a personal expense, loan, and budget tracking app built and operated by **VASU ARDESHANA**, an independent developer based in India.
+**Kharcho** ("we", "us", "Kharcho") is a personal expense, loan, budget, and group split tracking app built and operated by **VASU ARDESHANA**, an independent developer based in India.
 
 We built Kharcho with one core principle that everything else flows from: **your money data belongs to you.** We store it solely to run Kharcho for you, and nobody else ever gets a copy.
 
@@ -19,7 +19,7 @@ This Privacy Policy explains, in plain and transparent language, what data Kharc
 
 ## 1. The Short Version
 
-- **Your personal finance data** — your expenses, income, monthly budgets, loan contacts, loan transactions, EMIs, categories, and custom payment method names — lives with your Kharcho account on our secure cloud database powered by Appwrite. It is stored solely so that signing in on any Android device brings all your records back.
+- **Your personal finance data** — your expenses, income, monthly budgets, loan contacts, loan transactions, EMIs, categories, split groups, and custom payment method names — lives with your Kharcho account on our secure cloud database powered by Appwrite. It is stored solely so that signing in on any Android device brings all your records back.
 - **No one at Kharcho reads, accesses, or analyzes your personal entries.**
 - **We never sell, rent, monetize, or share your data with advertisers or third parties — ever.**
 - **We do not train AI models on your financial records.**
@@ -30,20 +30,23 @@ This Privacy Policy explains, in plain and transparent language, what data Kharc
 
 ## 2. Data We Handle
 
-### 2.1 Data You Provide Directly
-- **Your Name & Email Address:** Provided when creating your account so the app can greet you, identify your session, and allow secure password recovery.
+### 2.1 Data You Provide Directly & App Features
+- **Your Name, Email Address & Phone Number:** Provided during registration or login so Kharcho can identify your account, secure sessions, deliver password recovery, and allow group members to identify you in shared split groups.
 - **Expense Records:** Amount, title, category, payment method (e.g. Cash, UPI, Card), transaction date, and optional notes.
-- **Loan & Lending Records:** Person names, amounts borrowed or lent, transaction history, due dates, settlement status, and settlement notes.
+- **Shared Split Groups & Group Expenses:** When you create or join a shared split group, your chosen group nickname, registered phone number, and expenses, notes, and settlements created in that group are shared with other members of that specific group to facilitate group ledger calculations and debt resolution. Group data is strictly restricted to participants of that group and is never public.
+- **Micro-Savings (Spare Change):** Calculated round-up amounts and your all-time virtual piggy savings total stored with your account.
+- **Loan & Lending Records:** Contact names, phone numbers, amounts borrowed or lent, transaction history, due dates, and settlement notes.
 - **EMI & Budget Data:** Loan amounts, interest rates, tenure in months, computed installment schedules, and monthly category budget limits.
-- **Receipt Photos (Optional):** If you take or pick a photo of a bill/receipt, it is attached to that specific expense entry.
-- **Location (Optional):** If you grant location permission and tap the location pin for an expense, Kharcho saves the place coordinates and place name on that expense record. Location is used solely to display your spending location on a map. We never track your location in the background.
+- **Voice Expense Dictation (Microphone):** If you use the Voice Expense feature, audio is captured exclusively while you hold or tap the microphone to convert your spoken words (Gujarati, Hindi, or English) into an expense entry via Android's on-device speech recognition service. Raw audio is never stored on disk or uploaded to our servers.
+- **Smart Receipt, UPI Screenshot & QR Code Scanning (Camera & ML Kit):** If you take a receipt photo, pick a UPI payment screenshot, or scan a split group QR code, text and code recognition runs 100% locally on your device via Google ML Kit / ZXing. Payment screenshots and camera feeds are processed transiently in memory and are never uploaded to any server or cloud storage.
+- **Contact Picker (Optional):** When creating or selecting a borrower/lender in the Loan manager, you may tap "Pick from Contacts" to select a contact name and phone number. Kharcho only reads the specific contact you select and never uploads or scans your entire address book.
+- **Location (Optional):** If you tap the map location pin for an expense, Kharcho saves the coordinates and place name to show where you spent your money. We never track your location in the background.
 
-### 2.2 What We Do NOT Collect (Our Ironclad Rule)
-- **We do NOT collect bank account numbers, full debit/credit card numbers, CVVs, UPI PINs, netbanking passwords, or OTPs.** Kharcho does not connect to bank APIs or payment gateways.
-- **We do NOT collect your phone contacts list.** Kharcho does not read your address book.
-- **We do NOT collect your continuous background SMS or call logs.** When you paste or auto-fill a bank SMS into Kharcho, the text is parsed locally on your phone; the SMS text itself is never sent to our servers.
-- **We do NOT collect your biometric data.** Biometric screen lock (Fingerprint / Face Unlock) is handled 100% on-device by Android’s native `BiometricPrompt` and Android hardware Keystore. Your biometric data never touches the network or our servers.
-- **We do NOT use cross-app tracking, device fingerprinting, or advertising identifiers (no Ad SDKs).**
+### 2.2 Third-Party Services & Advertising Disclosures
+- **Google AdMob:** Kharcho displays non-intrusive advertisements provided by Google Mobile Ads (AdMob) to support free app maintenance. Google AdMob may collect and process pseudonymous identifiers such as the Google Advertising ID (AAID), IP address, and coarse device diagnostic data for ad serving, frequency capping, and fraud prevention. You can reset or opt out of personalized advertising at any time in **Android Settings → Google → Ads**.
+- **Firebase Cloud Messaging (FCM):** Used to deliver push notifications, group expense updates (via group topics), and background data sync pings to your device token.
+- **What We Do NOT Collect:** We do NOT collect bank account numbers, full debit/credit card numbers, CVVs, UPI PINs, netbanking passwords, or OTPs. Kharcho does not connect to bank accounts or payment gateways.
+- **No Biometric Harvesting:** Biometric screen unlock (Fingerprint / Face) is processed 100% locally by Android's hardware Keystore and never transmitted.
 
 ---
 
