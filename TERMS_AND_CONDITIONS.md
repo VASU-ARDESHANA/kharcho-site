@@ -1,6 +1,6 @@
 # Terms of Service for Kharcho
 
-**Last updated:** October 17, 2026  
+**Last updated:** October 28, 2026  
 **Developer:** VASU ARDESHANA  
 **Email:** [developer.vatech@gmail.com](mailto:developer.vatech@gmail.com)  
 **Location:** India 🇮🇳  
@@ -15,13 +15,14 @@ By downloading, installing, or using Kharcho, you agree to these Terms. If you d
 
 ## 1. What Kharcho Is (and What It Is NOT)
 
-Kharcho is a personal finance tool designed to help you track daily expenses, manage personal loans/lending with friends, calculate EMIs, and monitor your monthly spending habits.
+Kharcho is a personal and shared finance tool designed to help you track daily expenses, manage personal loans/lending with friends, calculate EMIs, organize group expense splits, and monitor your monthly spending habits.
 
 **Important Legal Disclaimers:**
-- Kharcho is **not a bank, not a financial institution, not a lender, not a payment gateway, and not a tax advisor.**
+- Kharcho is **not a bank, not a financial institution, not a lender, not an escrow service, not a payment gateway, and not a tax advisor.**
 - Kharcho is **not a SEBI-registered investment advisor.**
+- **Split Group Settlements:** Kharcho functions exclusively as an informational calculation ledger. It does **not** process, hold, transfer, or settle money between group members. Any actual debt settlements (via cash, UPI, bank transfer, etc.) occur strictly peer-to-peer between individuals outside the app. The Developer assumes no responsibility or liability for unpaid shares, fraudulent group entries, or disputes between members.
 - Nothing in Kharcho constitutes financial, tax, legal, or investment advice.
-- All calculations (such as EMI estimates, interest breakdowns, and category percentages) are provided purely for your personal organizational convenience. You make all financial decisions independently.
+- All calculations (such as EMI estimates, split balances, interest breakdowns, and category percentages) are provided purely for your personal organizational convenience. You make all financial decisions independently.
 
 ---
 
